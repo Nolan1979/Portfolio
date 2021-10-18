@@ -1,20 +1,63 @@
-// import React from 'react'
+import React, { useState } from 'react';
 
-// const Header = styled.div`
-// { 
-//     display: flex;
-//     justify-content: space-between;
-//     text-align: center;
-//     color:rgb(174, 203, 230);
-//     background-color: #0e1820d5;
-//     border-radius: 24px 24px 24px 24px;
-//     text-shadow: 0px 5px 6px rgba(0, 0, 0, 0.678);
-//     height: 100px;
-//     padding: 25px;
-//     margin: 20px;
-//     box-shadow: 0px 7px 10px rgba(3, 3, 3, 0.68);
-// }
 
-// `;
 
-// export default Header
+
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+} from "react-router-dom";
+
+
+import Home from './pages/Home';
+import Portfolio from './pages/Portfolio';
+import About from './pages/About';
+
+
+function Header() {
+
+    return (
+        <div className='App-header'>
+            <h1>Josh Nolan</h1>
+            <Router>
+                <div>
+                    <ul>
+                        <li>
+                            <Link to="/">Home</Link>
+                        </li>
+                        <li>
+                            <Link to="/about">About</Link>
+                        </li>
+                        <li>
+                            <Link to="/portfolio">Portfolio</Link>
+                        </li>
+                        <li>
+                            <Link to="/resume">Resume</Link>
+                        </li>
+                    </ul>
+
+                    <Switch>
+                        <Route exact path="/">
+                            <Home />
+                        </Route>
+                        <Route path="/about">
+                            <About />
+                        </Route>
+                        <Route path="/portfolio">
+                            <Portfolio />
+                        </Route>
+                        <Route path="/resume">
+                            <resume />
+                        </Route>
+                    </Switch>
+                </div>
+            </Router>
+
+        </div>
+    )
+};
+
+
+export default Header
