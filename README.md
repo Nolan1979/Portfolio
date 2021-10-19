@@ -1,6 +1,6 @@
 
 # Portfolio
-
+<img width="1325" alt="Screen Shot 2021-10-19 at 5 14 22 PM" src="https://user-images.githubusercontent.com/53482411/137998092-87cb340b-56ad-4321-b9d2-929964cff595.png">
 ## Description
 This is a React version of my portfolio!
 
@@ -27,3 +27,4 @@ https://josh-nolan-portfolio.netlify.app/
 
 ## Questions
 Having an issue? Email me with any questions about the app nolanjosh1979@gmail.com
+
