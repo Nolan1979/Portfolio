@@ -1,19 +1,13 @@
-import React, { useState } from 'react';
-
-
-
-
 import {
     BrowserRouter as Router,
     Switch,
     Route,
     Link
 } from "react-router-dom";
-
-
 import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
 import About from './pages/About';
+import Resume from './pages/Resume';
 
 
 function Header() {
@@ -49,7 +43,7 @@ function Header() {
                             <Portfolio />
                         </Route>
                         <Route path="/resume">
-                            <resume />
+                            <Resume />
                         </Route>
                     </Switch>
                 </div>

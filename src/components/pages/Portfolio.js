@@ -1,10 +1,10 @@
-import TechImg from '../../Images/Tech-Blog.png';
-import StumbleImg from '../../Images/stumble1.jpg'
-import CatzDogz from '../../Images/Catz-n-Dogz.png'
-import NoteImg from '../../Images/Note-Taker.jpeg'
-import WeatherImg from '../../Images/Weather-Dash.png'
-import CodingQuizImg from '../../Images/CodingQuiz.png'
-import PasswordImg from '../../Images/password.jpg'
+import TechImg from './../../Images/Tech-Blog.png';
+import StumbleImg from './../../Images/stumble1.jpg';
+import CatzDogz from './../../Images/Catz-n-Dogz.png';
+import NoteImg from './../../Images/Note-Taker.jpeg';
+import WeatherImg from './../../Images/Weather-Dash.png';
+import CodingQuizImg from './../../Images/CodingQuiz.png';
+import PasswordImg from './../../Images/password.jpg';
 
 
 import * as React from 'react';
