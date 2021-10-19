@@ -165,9 +165,6 @@ p {
 }
 
 .App-footer {
-  margin-top: 850px;
-  /* background-color: #0e1820d5; */
-  border-radius: 24px 24px 24px 24px;
+  margin-top: 1200px;
   height: 120px;
-  box-shadow: 0px 7px 10px rgba(3, 3, 3, 0.68);
 }
