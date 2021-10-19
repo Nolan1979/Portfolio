@@ -12,7 +12,7 @@ const Item = styled(Paper)(({ theme }) => ({
 function Resume() {
     return (
         <div>
-            <Item style={{ backgroundColor: '#0e1820d5', marginTop: '150px', borderRadius: '50px' }}>
+            <Item style={{ backgroundColor: '#0e1820d5', marginLeft: '150px', marginTop: '250px', borderRadius: '50px', width: '300px' }}>
             <a href="./Assets/Resume-Josh-Nolan.pdf" rel="noreferrer" target="_blank">Click Here
             </a>
             </Item>

@@ -8,7 +8,7 @@ import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
 import About from './pages/About';
 import Resume from './pages/Resume';
-
+import Contact from './pages/Contact'
 
 function Header() {
 
@@ -30,6 +30,9 @@ function Header() {
                         <li>
                             <Link to="/resume">Resume</Link>
                         </li>
+                        <li>
+                            <Link to="/contact">Contact</Link>
+                        </li>
                     </ul>
 
                     <Switch>
@@ -44,6 +47,9 @@ function Header() {
                         </Route>
                         <Route path="/resume">
                             <Resume />
+                        </Route>
+                        <Route path="/contact">
+                            <Contact />
                         </Route>
                     </Switch>
                 </div>

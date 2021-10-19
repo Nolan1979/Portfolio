@@ -10,24 +10,32 @@ body {
 }
 
 .App-header { 
+  justify-content: center;
   display: flex;
   flex-direction: row;
-  text-align: center;
   font-size: 35px;
   font-family: 'Megrim', cursive;
   color:rgb(174, 203, 230);
   background-color: #0e1820d5;
   border-radius: 24px 24px 24px 24px;
-
   height: 100px;
   padding: 25px;
-  margin: 20px;
   box-shadow: 0px 7px 10px rgba(3, 3, 3, 0.68);
 }
 
 h1 {
   font-size: 75px;
   font-family: 'Megrim', cursive;
+}
+
+.port {
+  width: 600px;
+  height: 700px;
+  background-image: url(./Images/port_image_chicago.jpeg);
+  background-size:cover;
+  margin-top: 50px;
+  border: 6px solid#162734d5;
+  box-shadow: 0px 7px 10px rgba(3, 3, 3, 0.68);
   animation: title;
   animation-duration: 6s;
   animation-fill-mode: forwards;
@@ -43,15 +51,13 @@ opacity: 1;
 }
 }
 
-.port {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  background-image: url(./Images/port_image_chicago.jpeg);
+.blk-wht{
+  width: 600px;
+  height: 700px;
+  background-image: url(./Images/blk-wht.jpeg);
   background-size:cover;
-  padding-top: 20px;
-  margin-top: 20px;
-  border: 8px solid#162734d5;
+  margin-top: 50px;
+  border: 6px solid#162734d5;
   box-shadow: 0px 7px 10px rgba(3, 3, 3, 0.68);
 }
 
@@ -68,7 +74,7 @@ li {
 
 a {
   text-decoration: none;
-  padding: 10px;
+  padding: 50px;
   color:rgb(174, 203, 230);
   font-size: 30px;
   font-family: 'Megrim', cursive;
@@ -78,15 +84,28 @@ a {
 
 
 .App-about {
-  
+  background-image: url(./Images/background_2.jpg);
   margin-top: 200px;
   padding-top: 40px;
-  width: 600px;
+  width: 650px;
   height: 600px;
   box-shadow: 0px 7px 10px rgba(3, 3, 3, 0.68);
   border-radius: 50px;
   background: linear-gradient(180deg,#415c74d5 5%, rgb(174, 203, 230));
   color: rgb(5, 20, 20);
+  animation: title;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes title {
+0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
 }
 
 p {
@@ -103,13 +122,52 @@ p {
   border: 10px solid #162734d5; 
   box-shadow: 0px 7px 10px rgba(3, 3, 3, 0.68);
   border-radius: 24px;
+  
+}
+
+.contact{
+  margin-right: 400px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-between;
+  padding: 80px;
+}
+
+.form-control label {
+  display: block;
+}
+
+.form-control input {
+  width: 50%;
+  height: 40px;
+  margin: 5px;
+  padding: 3px 50px;
+  font-size: 17px;
+}
+
+
+.btn-contact{
+  width: 50%;
+  display: inline-block;
+  background: #0e1820d5;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  margin-left: 120px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: inherit;
 }
 
 .App-footer {
-  text-align: center;
   margin-top: 850px;
   /* background-color: #0e1820d5; */
   border-radius: 24px 24px 24px 24px;
-  height: 100px;
+  height: 120px;
   box-shadow: 0px 7px 10px rgba(3, 3, 3, 0.68);
 }
