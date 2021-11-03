@@ -1,26 +1,3 @@
-// import { motion } from 'framer-motion'
-// const Resume = () => {
-//     return (
-//         <motion.div 
-//         exit={{ opacity: 0 }}
-//         animate={{ opacity: 1 }}
-//         initial={{ opacity: 0 }}
-//         transition={{ duration: 1 }}
-//         >
-//         <div>
-//         <a href="./Assets/Resume-Josh-Nolan.pdf" rel="noreferrer" target="_blank">
-//             </a>
-//         </div>
-//         </motion.div>
-//     )
-// }
-
-// export default Resume
-
-
-import React from "react";
-// import Head from "next/head";
-
 export default function Resume() {
     return (
         <>

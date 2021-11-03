@@ -47,9 +47,6 @@ export default function About() {
                                     <p className="text-semi-bold leading-10 mt-6 text-center text-gray-600 sm:w-96 w-full">My Skills Include:<br></br><br></br>HTML<br></br>CSS<br></br>Javascript<br></br>React<br></br>Node.js<br></br>MongoDB<br></br>MySQL<br></br>GraphQL<br></br>Tailwind<br></br>Bootstrap.</p>
                                 </div>
                             </div>
-
-
-
                         </div>
                         <div className="py-96 xl:w-1/2 lg:w-1/3 sm:w-1/2">
                             <img src="https://res.cloudinary.com/cosmic-records/image/upload/v1635896531/cosmic%20records/blk-wht_hrklrl.jpg" alt="image of Josh Nolan" className="h-full rounded-2xl object-cover object-center md:block hidden" />
@@ -58,7 +55,6 @@ export default function About() {
                     </div>
                 </div>
             </div>
-
         </motion.div>
     );
 }

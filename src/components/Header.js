@@ -5,19 +5,14 @@ export default function Header() {
                 <img className="mx-auto rounded-3xl" src="https://res.cloudinary.com/cosmic-records/image/upload/v1635786720/cosmic%20records/port_image_chicago_iirrur.jpg" />
             </div>
             <div className="w-full lg:w-1/2 h-full">
-
                 <p className="text-blue font-regular text-4xl md:text-7xl">Josh Nolan</p>
                 <p className="text-gray-700 font-regular">COMBINING TECHNOLOGY AND DESIGN.</p>
-
                 <div className="sm:flex items-center py-2">
                     <div className="flex items-center">
-
                     </div>
                 </div>
-
             </div>
         </div>
-
     )
 }
 
