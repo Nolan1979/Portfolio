@@ -1,63 +1,34 @@
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-} from "react-router-dom";
-import Home from './pages/Home';
-import Portfolio from './pages/Portfolio';
-import About from './pages/About';
-import Resume from './pages/Resume';
-import Contact from './pages/Contact'
-
-function Header() {
-
+export default function Header() {
     return (
-        <div className='App-header'>
-            <h1>Josh Nolan</h1>
-            <Router>
-                <div>
-                    <ul>
-                        <li>
-                            <Link to="/">Home</Link>
-                        </li>
-                        <li>
-                            <Link to="/about">About</Link>
-                        </li>
-                        <li>
-                            <Link to="/portfolio">Portfolio</Link>
-                        </li>
-                        <li>
-                            <Link to="/resume">Resume</Link>
-                        </li>
-                        <li>
-                            <Link to="/contact">Contact</Link>
-                        </li>
-                    </ul>
+        <div className="pt-32 lg:flex items-center relative z-10 container mx-auto">
+            <div className="w-full lg:w-1/2 h-full lg:pr-10 xl:pr-0">
+                <img className="mx-auto rounded-3xl" src="https://res.cloudinary.com/cosmic-records/image/upload/v1635786720/cosmic%20records/port_image_chicago_iirrur.jpg" />
+            </div>
+            <div className="w-full lg:w-1/2 h-full">
 
-                    <Switch>
-                        <Route exact path="/">
-                            <Home />
-                        </Route>
-                        <Route path="/about">
-                            <About />
-                        </Route>
-                        <Route path="/portfolio">
-                            <Portfolio />
-                        </Route>
-                        <Route path="/resume">
-                            <Resume />
-                        </Route>
-                        <Route path="/contact">
-                            <Contact />
-                        </Route>
-                    </Switch>
+                <p className="text-blue font-regular text-4xl md:text-7xl">Josh Nolan</p>
+                <p className="text-gray-700 font-regular">COMBINING TECHNOLOGY AND DESIGN.</p>
+
+                <div className="sm:flex items-center py-2">
+                    <div className="flex items-center">
+
+                    </div>
                 </div>
-            </Router>
 
+            </div>
         </div>
+
     )
-};
+}
 
 
-export default Header
+
+
+
+
+
+
+
+
+
+
