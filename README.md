@@ -23,7 +23,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 Material UI, React
 
 ## LiveLink:
-https://josh-nolan-portfolio.netlify.app/
+https://josh-nolan-coding-portfolio.netlify.app/
 
 ## Questions
 Having an issue? Email me with any questions about the app nolanjosh1979@gmail.com
