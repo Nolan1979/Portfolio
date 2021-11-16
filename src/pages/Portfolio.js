@@ -49,7 +49,7 @@ export default function Portfolio() {
                 <Grid item xs={4}>
                     <Item style={{ backgroundColor: '#0e1820d5', marginTop: '30px', color: 'rgb(174, 203, 230)', marginRight: '20px' }}>
                         <a href="https://github.com/Nolan1979/Stumble-Brewery-Locator" rel="noreferrer" target="_blank">Stumble Repository</a>
-                        <a href="https://nolan19Stumb79.github.io/Stumble-Brewery-Locator/" rel="noreferrer" target="_blank">
+                        <a href="https://nolan1979.github.io/Stumble-Brewery-Locator/" rel="noreferrer" target="_blank">
                             <img src={stumble_small}  alt="" /></a>
                     </Item>
                 </Grid>
