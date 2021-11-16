@@ -33,7 +33,7 @@ export default function Portfolio() {
         <Box sx={{ flexGrow: 1 }}>
             <Grid container spacing={2}>
                 <Grid item xs={4}>
-                    <Item style={{ backgroundColor: '#0e1820d5', marginTop: '30px', color: 'rgb(174, 203, 230)', marginLeft: '20px', height: '590px'}}>
+                    <Item style={{ backgroundColor: '#0e1820d5', marginTop: '30px', color: 'rgb(174, 203, 230)', marginLeft: '20px', height: '345px'}}>
                         <a href="https://github.com/Nolan1979/Cosmic-Records-Online-Store" rel="noreferrer" target="_blank">Cosmic Records Repository</a>
                         <a href="https://cosmic-records.herokuapp.com/" rel="noreferrer" target="_blank">
                             <img src={cosmic_screenshot}  alt="" /></a>
@@ -61,14 +61,14 @@ export default function Portfolio() {
                     </Item>
                 </Grid>
                 <Grid item xs={4}>
-                    <Item style={{ backgroundColor: '#0e1820d5', marginTop: '20px', color: 'rgb(174, 203, 230)', height: '600px' }}>
+                    <Item style={{ backgroundColor: '#0e1820d5', marginTop: '20px', color: 'rgb(174, 203, 230)', height: '345px' }}>
                         <a href="https://github.com/Nolan1979/Note-Taker" rel="noreferrer" target="_blank">Note Taker Repository</a>
                         <a href="https://whispering-eyrie-07301.herokuapp.com/" rel="noreferrer" target="_blank">
                             <img src={NoteImg}  alt="" /></a>
                     </Item>
                 </Grid>
                 <Grid item xs={4}>
-                    <Item style={{ backgroundColor: '#0e1820d5', marginTop: '20px', color: 'rgb(174, 203, 230)', marginRight: '20px', height: '600px' }}>
+                    <Item style={{ backgroundColor: '#0e1820d5', marginTop: '20px', color: 'rgb(174, 203, 230)', marginRight: '20px', height: '345px' }}>
                         <a href="https://github.com/Nolan1979/Weather-Dashboard" rel="noreferrer" target="_blank">Weather Dashboard Repository</a>
                         <a href="https://nolan1979.github.io/Weather-Dashboard/" rel="noreferrer" target="_blank">
                             <img src={WeatherImg}  alt="" /></a>

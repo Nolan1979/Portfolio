@@ -49,8 +49,8 @@ export default function About() {
                             </div>
                         </div>
                         <div className="py-96 xl:w-1/2 lg:w-1/3 sm:w-1/2">
-                            <img src="https://res.cloudinary.com/cosmic-records/image/upload/v1635896531/cosmic%20records/blk-wht_hrklrl.jpg" alt="image of Josh Nolan" className="h-full rounded-2xl object-cover object-center md:block hidden" />
-                            <img src="https://res.cloudinary.com/cosmic-records/image/upload/v1635896531/cosmic%20records/blk-wht_hrklrl.jpg" alt="of Josh Nolan" className="h-auto w-auto md:hidden block" />
+                            <img src="https://res.cloudinary.com/cosmic-records/image/upload/v1635896531/cosmic%20records/blk-wht_hrklrl.jpg" alt="Josh Nolan" className="h-full rounded-2xl object-cover object-center md:block hidden" />
+                            <img src="https://res.cloudinary.com/cosmic-records/image/upload/v1635896531/cosmic%20records/blk-wht_hrklrl.jpg" alt="Josh Nolan" className="h-auto w-auto md:hidden block" />
                         </div>
                     </div>
                 </div>

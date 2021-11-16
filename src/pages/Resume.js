@@ -8,7 +8,7 @@ export default function Resume() {
                             <h2>Download My Resume</h2>
                         </div>
                         <div className="flex mt-16">
-                            <a href="./Assets/Resume-Josh-Nolan.pdf" rel="noreferrer" target="_blank" className=" focus:ring-indigo-900 hover:opacity-90  w-48 h-16 font-bold text-center text-xl text-white bg-gradient-to-l from-indigo-500 to-indigo-900 rounded-xl">Click Here!</a>
+                            <a href="./Assets/Josh_Nolan_Resume_2021.pdf" rel="noreferrer" target="_blank" className=" focus:ring-indigo-900 hover:opacity-90  w-48 h-16 font-bold text-center text-xl text-white bg-gradient-to-l from-indigo-500 to-indigo-900 rounded-xl">Click Here!</a>
                         </div>
                     </div>
                 </section>
